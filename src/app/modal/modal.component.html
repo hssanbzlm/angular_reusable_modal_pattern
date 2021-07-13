@@ -1,0 +1,22 @@
+<div class="modal-container">
+  <div
+    style="
+      width: 500px;
+      height: auto;
+      border: olive 1px solid;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    "
+  >
+    <h1 class="title">{{ title }}</h1>
+    <p class="body">{{ body }}</p>
+    <div class="btn-container">
+      <button (click)="closeMe()">close</button>
+      <button (click)="confirm()">Confirm</button>
+    </div>
+  </div>
+</div>
